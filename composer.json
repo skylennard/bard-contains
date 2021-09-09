@@ -1,0 +1,49 @@
+{
+    "name": "skylennard/bard-contains",
+    "type": "statamic-addon",
+    "description": "Adds reliable custom conditions for Bard fields",
+    "keywords": [
+        "statamic",
+        "bard",
+        "condition",
+        "conditions",
+        "collection",
+        "collections",
+        "taxonomy",
+        "taxonomies"
+    ],
+    "homepage": "https://github.com/skylennard/bard-contains",
+    "license": "MIT",
+    "require": {
+        "statamic/cms": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SkyLennard\\BardContains\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nate Johnson",
+            "email": "bard-contains-author@rackora.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "bard-contains-support@rackora.com"
+    },
+    "extra": {
+        "statamic": {
+            "name": "Bard Contains",
+            "description": "Adds reliable custom conditions for Bard fields",
+            "version": "1.0"
+        },
+        "laravel": {
+            "providers": [
+                "SkyLennard\\BardContains\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
