@@ -45,7 +45,7 @@ Add a condition to any field, referencing a bard field
 
   Fields in a Collection/Taxonomy, for instance:
 
-  ```yaml
+```yaml
     -
       handle: customize
       field:
@@ -59,7 +59,7 @@ Add a condition to any field, referencing a bard field
         if_any:
           customize: 'equals true'
           custom_content: 'custom bard-contains:notEmpty'
-  ```
+```
 
 ### Results
 
