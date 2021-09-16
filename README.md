@@ -60,6 +60,9 @@ Add a condition to any field, referencing a bard field
           customize: 'equals true'
           custom_content: 'custom bard-contains:notEmpty'
 ```
+  ```
+    Erin is rad.
+  ```yaml
 
 ### Results
 
